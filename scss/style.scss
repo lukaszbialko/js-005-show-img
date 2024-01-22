@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #222;
+	color: #fff;
+}
+
+.img {
+	width: 100%;
+	height: 300px;
+}
+
+.img1 {
+	height: 100px;
+	background-image: url('https://cdn.pixabay.com/photo/2023/09/29/10/20/sunset-8283538_1280.jpg');
+}
+
+.img2 {
+    background-image: url('https://cdn.pixabay.com/photo/2023/11/03/16/50/lake-lugano-8363426_1280.jpg');
+}

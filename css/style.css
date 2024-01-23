@@ -11,14 +11,37 @@ body {
 
 .img {
   width: 100%;
-  height: 300px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  transition: height 0.5s;
 }
 
 .img1 {
-  height: 100px;
+  height: 50px;
   background-image: url("https://cdn.pixabay.com/photo/2023/09/29/10/20/sunset-8283538_1280.jpg");
 }
 
 .img2 {
   background-image: url("https://cdn.pixabay.com/photo/2023/11/03/16/50/lake-lugano-8363426_1280.jpg");
+}
+
+.show {
+  height: 250px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btn .arrow-btn {
+  padding: 10px;
+  background-color: gold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn .arrow-btn i {
+  font-size: 44px;
 }/*# sourceMappingURL=style.css.map */

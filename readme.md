@@ -1,0 +1,1 @@
+Next simple app to show and hide image, idea is not mine but code is.
